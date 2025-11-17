@@ -1,3 +1,4 @@
+
 # Ex. No: 16B - Constructing and Balancing an AVL Tree in Python
 
 ## AIM:
@@ -27,12 +28,14 @@ To write a Python program to construct an **AVL tree**, balance it, and print th
 
 ## PYTHON PROGRAM
 ```
-ENTER YOUR CODE
+from TreeAVL.AVL import AVL
+def Construct_AVL(L):
+    tree = AVL(L)
+    print("Length of an AVL Tree is",tree.length_tree)
 ```
 
 ## OUTPUT
-```
-```
+![image](https://github.com/user-attachments/assets/5520a564-3748-4e6d-85aa-0d153e5c612f)
 
 ## RESULT
-
+Thus the output is verified successfully.
